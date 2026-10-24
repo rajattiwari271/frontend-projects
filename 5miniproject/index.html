@@ -1,0 +1,92 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Practice</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <h1>JavaScript Playground</h1>
+        <p>Practice JavaScript by building things yourself.</p>
+    </header>
+
+    <main>
+        <!-- Task 1: Counter -->
+        <section class="card">
+            <h2>1. Counter App</h2>
+            <p id="count">0</p>
+
+            <div class="buttons">
+                <button id="decrease">-</button>
+                <button id="reset">Reset</button>
+                <button id="increase">+</button>
+            </div>
+        </section>
+
+        <!-- Task 2: Greeting -->
+        <section class="card">
+            <h2>2. Greeting App</h2>
+
+            <input
+                type="text"
+                id="username"
+                placeholder="Enter your name"
+            >
+
+            <button id="greetBtn">Greet Me</button>
+
+            <p id="greeting">Your greeting will appear here.</p>
+        </section>
+
+        <!-- Task 3: Background Changer -->
+        <section class="card">
+            <h2>3. Background Changer</h2>
+            <p>Click the button to change the background.</p>
+
+            <button id="colorBtn">Change Color</button>
+        </section>
+
+        <!-- Task 4: Live Character Counter -->
+        <section class="card">
+            <h2>4. Character Counter</h2>
+
+            <textarea
+                id="message"
+                placeholder="Start typing..."
+                rows="4"
+            ></textarea>
+
+            <p>Characters: <span id="charCount">0</span></p>
+        </section>
+
+        <!-- Task 5: To-Do List -->
+        <section class="card">
+            <h2>5. To-Do List</h2>
+
+            <div class="todo-input">
+                <input
+                    type="text"
+                    id="todoInput"
+                    placeholder="Enter a task"
+                >
+
+                <button id="addTodo">Add Task</button>
+            </div>
+
+            <ul id="todoList"></ul>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Built for JavaScript practice.</p>
+    </footer>
+
+   
+</body>
+</html>
